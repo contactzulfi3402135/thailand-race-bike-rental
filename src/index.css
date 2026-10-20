@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Barlow Condensed', 'Noto Sans Thai', 'Noto Sans SC', sans-serif;
+    --font-sans: 'Inter', 'Noto Sans Thai', 'Noto Sans SC', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    background-color: #08090C;
+    color: #F4F5F7;
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+
+  body {
+    overflow-x: clip;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.font-mono-tech {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle motorsport carbon weave accent line */
+.kerb-stripe {
+  background: repeating-linear-gradient(
+    -55deg,
+    #E62429 0px,
+    #E62429 12px,
+    #FFFFFF 12px,
+    #FFFFFF 24px
+  );
+}
