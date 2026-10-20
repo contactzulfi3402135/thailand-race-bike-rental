@@ -2,9 +2,9 @@
 
 @layer base {
   :root {
-    --font-display: 'Barlow Condensed', 'Noto Sans Thai', 'Noto Sans SC', sans-serif;
-    --font-sans: 'Inter', 'Noto Sans Thai', 'Noto Sans SC', system-ui, sans-serif;
-    --font-mono: 'JetBrains Mono', monospace;
+    --font-display: 'Barlow Condensed', system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Thonburi', 'Leelawadee UI', sans-serif;
+    --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', 'Thonburi', 'Leelawadee UI', sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
   }
 
   html {
@@ -30,7 +30,6 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* Subtle motorsport carbon weave accent line */
 .kerb-stripe {
   background: repeating-linear-gradient(
     -55deg,
